@@ -2,7 +2,7 @@
 
 #Simple Pingsweep Script
 
-echo "Please enter the subnet: "
+echo "Please enter the subnet (e.g., 192.168.1): "
 read SUBNET
 
 for IP in $(seq 0 254); do
